@@ -5,6 +5,7 @@ import java.util.*; // Importa la clase java.util que incluye la clase LinkedLis
 public class GeneraSagas {
 
     public static void main(String[] args) {
+
         // Crea una lista de tipo LinkedList llamada "sagaTest1":
         LinkedList<Libro> sagaTest1 = new LinkedList();
         // Crea cuatro objetos de tipo "Libro":
@@ -41,5 +42,7 @@ public class GeneraSagas {
         for (Libro i : listaSagas) {
             System.out.println(i.getTituloLibro() + " " + i.getTituloSaga());
         }
+
     }
+
 }
