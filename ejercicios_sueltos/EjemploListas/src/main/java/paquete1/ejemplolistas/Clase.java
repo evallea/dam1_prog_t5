@@ -25,5 +25,10 @@ public class Clase {
     public void setGrupo(int grupo) {
         this.grupo = grupo;
     }
+    
+    @Override
+    public String toString() {
+        return "Nombre: " + this.nombre + ", Grupo: " + this.grupo;
+    }
 
 }
