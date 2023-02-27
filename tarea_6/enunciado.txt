@@ -1,0 +1,6 @@
+Entrega del ejercicio 7 de la hoja 15.
+
+IMPORTANTE:
+
+Modifica la clase cambiando el atributo velocidad por la cadena “color”. Esta parte no hay que hacerla.
+El método buscar no lo hace por matrícula (no existe), busca el coche por la posición.

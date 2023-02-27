@@ -1,0 +1,15 @@
+Crea un nuevo proyecto llamado Tarea5.
+
+Crea una clase Contacto cuyos atributos son nombre y apellido. Añade un constructor con parámetros y un constructor por defecto que cree un contacto con tu nombre y tu apellido. Además, añade un método muestraInformacion que imprima por pantalla los atributos del objeto.
+
+Crea una clase Principal en la que debes crear:
+
+·       Una LinkedList con 5 objetos de Contacto.
+
+·       Un ArrayList con 5 objetos de Contacto.
+
+·       Un LinkedList que incluya 7 String que serán los días de la semana.
+
+·       Un array bidimensional de 3 filas y 3 columnas que contenga números aleatorios entre 1 y 15 en la tercera columna.
+
+·       Deberás mostrar todo lo anterior por pantalla, para poder visualizar los diferentes elementos del array y de las listas.
