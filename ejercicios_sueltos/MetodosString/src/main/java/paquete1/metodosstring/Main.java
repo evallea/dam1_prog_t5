@@ -12,8 +12,8 @@ public class Main {
         String palabra1 = "Hoy es jueves";
         String palabra2 = "Hoy es viernes";
 
-        // COMPARAR STRINGS (MÉTODOS "compare" o "equals"):
-        // "compare" devuelve 0 si los String son iguales, o un número si no lo son.
+        // COMPARAR STRINGS (MÉTODOS "compareTo" o "equals"):
+        // "compareTo" devuelve 0 si los String son iguales, o un número si no lo son.
         System.out.println(palabra1.compareToIgnoreCase(palabra2)); // También existe una versión "IgnoreCase".
         // "equals" devuelve true o false dependiendo si los Strings son iguales o no:
         System.out.println(palabra1.equals(palabra2));
@@ -22,6 +22,7 @@ public class Main {
 
         // CONCATENAR STRINGS:
         System.out.println(palabra1.concat(palabra2)); // Une ambas cadenas.
+        System.out.println(palabra1.concat(" ").concat(palabra2)); // Para añadir un espacio en mitad, se concatena primero con un espacio y después con "palabra2".
 
         System.out.println("\n**********\n");
 
