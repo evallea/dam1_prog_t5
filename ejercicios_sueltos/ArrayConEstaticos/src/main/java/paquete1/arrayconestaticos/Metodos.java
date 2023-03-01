@@ -7,7 +7,7 @@ public class Metodos {
     // Método estático que recibe un valor entero para conformar el tamaño del array y devolver el array de unos:
     public static int[] array_unos(int n) {
         int array[] = new int[n];
-        for (int i = 0; 1 < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             array[i] = 1;
         }
         return array;
@@ -21,5 +21,4 @@ public class Metodos {
         }
         return suma;
     }
-    
 }

@@ -10,7 +10,5 @@ public class Main {
 
         int array_ejemplo[] = {5, 3, 2, 4};
         System.out.println(Metodos.suma_array(array_ejemplo));
-
     }
-
 }

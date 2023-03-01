@@ -15,12 +15,12 @@ public class ArrayInvertido_v1 {
         System.out.println("Array sin invertir:");
         System.out.println(Arrays.toString(ordenado));
 
-        int invertido[] = new int[10];
-        // int invertido[] = new int[ordenado.length];
+        // int invertido[] = new int[10];
+        int invertido[] = new int[ordenado.length];
 
         for (int i = 0; i < ordenado.length; i++) {
-            invertido[9 - i] = ordenado[i];
-            // invertido[i]=ordenado[(ordenado.length-1)-i];
+            // (invertido[9 - i] = ordenado[i];
+            invertido[i] = ordenado[(ordenado.length - 1) - i];
         }
 
         System.out.println("Array invertido:");

@@ -20,7 +20,7 @@ public class ArrayInvertido_v2 {
             temp = numeros[i];
 
             // Intercambia el elemento actual con el elemento simétrico (el elemento en la posición opuesta):
-            numeros[i] = numeros[numeros.length - 1 - i];
+            numeros[i] = numeros[(numeros.length - 1) - i];
             // Y viceversa con el valor guardado anteriormente en temp:
             numeros[numeros.length - 1 - i] = temp;
         }

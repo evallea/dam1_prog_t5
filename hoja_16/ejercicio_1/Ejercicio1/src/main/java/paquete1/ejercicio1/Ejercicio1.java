@@ -17,10 +17,10 @@ public class Ejercicio1 {
                 entero = Integer.parseInt(lectura.next());
                 System.out.println("El número entero es: " + entero);
                 seguir = false;
-            } catch (NumberFormatException e) {
+            } catch (NumberFormatException eNF) {
                 System.out.println("Debes introducir un número entero.");
             } catch (Exception e) {
-                System.out.println("Error genérico. Debes introducir un número entero.");
+                System.out.println("Error genérico.");
             }
         }
 
@@ -32,10 +32,10 @@ public class Ejercicio1 {
                 decimal = Double.parseDouble(lectura.next());
                 System.out.println("El número decimal es: " + decimal);
                 seguir = false;
-            } catch (NumberFormatException e) {
+            } catch (NumberFormatException eNF) {
                 System.out.println("Debes introducir un número decimal.");
             } catch (Exception e) {
-                System.out.println("Error genérico. Debes introducir un número decimal.");
+                System.out.println("Error genérico.");
             }
         }
     }

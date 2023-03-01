@@ -7,15 +7,12 @@ public class Invierno {
     // ATRIBUTO:
     private double temperaturas[];
 
-    
-
     // CONSTRUCTOR POR DEFECTO:
-    Invierno(int  n) {
+    Invierno(int n) {
         temperaturas = new double[n];
         Scanner lectura = new Scanner(System.in);
-        for (int i =0; i<temperaturas.length;i++){
+        for (int i = 0; i < temperaturas.length; i++) {
             System.out.println("");
         }
     }
-
 }

@@ -7,9 +7,6 @@ public class Reproduccion {
     // ATRIBUTOS:
     private LinkedList<Cancion> lista;
 
-    // LISTA DE ELEMENTOS DE TIPO "CANCION":
-    LinkedList<Cancion> lista = new LinkedList();
-
     // CONSTRUCTOR POR DEFECTO:
     public Reproduccion() {
         Cancion cancion1 = new Cancion("Canción 1", "Autor 1");
@@ -17,13 +14,12 @@ public class Reproduccion {
         Cancion cancion3 = new Cancion("Canción 3", "Autor 3");
         Cancion cancion4 = new Cancion("Canción 4", "Autor 4");
         Cancion cancion5 = new Cancion("Canción 5", "Autor 5");
+        lista.add(cancion1);
+        lista.add(cancion2);
+        lista.add(cancion3);
+        lista.add(cancion4);
+        lista.add(cancion5);
     }
-
-    lista.add(cancion1);
-    lista.add(cancion2);
-    lista.add(cancion3);
-    lista.add(cancion4);
-    lista.add(cancion5);
 
     // MÉTODOS:
     public String reproduceCancion(int posicion) {

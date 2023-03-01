@@ -6,6 +6,11 @@ public class Ejercicio2 {
 
     public static void main(String[] args) {
 
+        dividir();
+    }
+
+    public static void dividir() {
+
         boolean seguir = true;
         Scanner lectura = new Scanner(System.in);
 
@@ -17,12 +22,13 @@ public class Ejercicio2 {
                 int divisor = Integer.parseInt(lectura.next());
                 System.out.println("el resultado es " + dividendo / divisor);
                 seguir = false;
-            } catch (NumberFormatException e) {
+            } catch (NumberFormatException eNF) {
                 System.err.println("Número incorrecto.");
+            } catch (ArithmeticException eAE) {
+                System.err.println("No se puede dividir un número entre 0.");
             } catch (Exception e) {
                 System.err.println("Error genérico.");
             }
         }
-         
     }
 }
