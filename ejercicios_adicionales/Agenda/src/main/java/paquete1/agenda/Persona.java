@@ -6,10 +6,6 @@ public class Persona {
     private String nombre;
     private int telefono;
     
-    // CONSTRUCTOR POR DEFECTO:
-    Persona(){
-    }
-
     // CONSTRUCTOR CON PARÁMETROS:
     Persona(String nombre, int telefono) {
         this.nombre=nombre;

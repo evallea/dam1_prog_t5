@@ -12,10 +12,27 @@ public class Agenda {
         contador = 0;
     }
 
+    // GETS Y SETS:
+    public Persona[] getArray_personas() {
+        return array_personas;
+    }
+
+    public void setArray_personas(Persona[] array_personas) {
+        this.array_personas = array_personas;
+    }
+
+    public int getContador() {
+        return contador;
+    }
+
+    public void setContador(int contador) {
+        this.contador = contador;
+    }
+    
     // MÉTODOS:
-    public void anadir(Persona persona) {
+    public void anadir(Persona p1) {
         if (array_personas.length >= contador) {
-            array_personas[contador] = persona;
+            array_personas[contador] = p1;
             contador++;
             System.out.println("Contacto añadido.");
         } else {
