@@ -20,6 +20,7 @@ public class Main {
 
         empresa.lista_empleados(); // Se muestra la lista de empleados.
         empresa.borra_empleado("59232256J"); // Se borra un empleado.
+        System.out.println("**********");
         empresa.lista_empleados(); // Se vuelve a mostrar la lista de empleados con los restantes.
     }
 }
